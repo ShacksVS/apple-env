@@ -61,6 +61,7 @@ struct CatList: View {
                     }
                     
                 }
+                .accessibilityIdentifier("animal")
             }
         }
         .task {

@@ -44,7 +44,27 @@
 		903535612BFB7283008DE9A7 /* CatDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903535602BFB7283008DE9A7 /* CatDetailsView.swift */; };
 		903535642BFB73EB008DE9A7 /* MyNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 903535632BFB73EB008DE9A7 /* MyNetwork */; };
 		90B89D8B2C03B78A00E87678 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B89D8A2C03B78A00E87678 /* UserDefaultsKeys.swift */; };
+		90C211032C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C211022C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.swift */; };
+		90C211052C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C211042C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITestsLaunchTests.swift */; };
+		90C211152C17213800C05A83 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 90C2110B2C17213800C05A83 /* Appfile */; };
+		90C211172C17213800C05A83 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 90C2110C2C17213800C05A83 /* Fastfile */; };
+		90C211192C17213800C05A83 /* Gymfile in Resources */ = {isa = PBXBuildFile; fileRef = 90C2110D2C17213800C05A83 /* Gymfile */; };
+		90C2111B2C17213800C05A83 /* Pluginfile in Resources */ = {isa = PBXBuildFile; fileRef = 90C2110E2C17213800C05A83 /* Pluginfile */; };
+		90C2111D2C17213800C05A83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90C2110F2C17213800C05A83 /* README.md */; };
+		90C2111F2C17213800C05A83 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90C211102C17213800C05A83 /* report.xml */; };
+		90C211212C17213800C05A83 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 90C211112C17213800C05A83 /* Snapfile */; };
+		90C211232C17213800C05A83 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C211122C17213800C05A83 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90C211062C171F4600C05A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903535412BFB707C008DE9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903535482BFB707D008DE9A7;
+			remoteInfo = CatsAndModules_ViktorSoviak;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9029DC112C033F0D00658806 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -58,6 +78,17 @@
 		903535602BFB7283008DE9A7 /* CatDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailsView.swift; sourceTree = "<group>"; };
 		90B89D8A2C03B78A00E87678 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		90B89D8C2C08D06700E87678 /* CatsAndModules-ViktorSoviak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CatsAndModules-ViktorSoviak-Info.plist"; sourceTree = SOURCE_ROOT; };
+		90C211002C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsAndModules_ViktorSoviakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C211022C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_ViktorSoviakUITests.swift; sourceTree = "<group>"; };
+		90C211042C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_ViktorSoviakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90C2110B2C17213800C05A83 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		90C2110C2C17213800C05A83 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		90C2110D2C17213800C05A83 /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gymfile; sourceTree = "<group>"; };
+		90C2110E2C17213800C05A83 /* Pluginfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pluginfile; sourceTree = "<group>"; };
+		90C2110F2C17213800C05A83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90C211102C17213800C05A83 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		90C211112C17213800C05A83 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
+		90C211122C17213800C05A83 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,13 +128,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C210FD2C171F4600C05A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		903535402BFB707C008DE9A7 = {
 			isa = PBXGroup;
 			children = (
+				90C211132C17213800C05A83 /* fastlane */,
 				9035354B2BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak */,
+				90C211012C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests */,
 				9035354A2BFB707D008DE9A7 /* Products */,
 				903535622BFB73EB008DE9A7 /* Frameworks */,
 			);
@@ -113,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				903535492BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak.app */,
+				90C211002C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +204,31 @@
 				90B89D8A2C03B78A00E87678 /* UserDefaultsKeys.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90C211012C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90C211022C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.swift */,
+				90C211042C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITestsLaunchTests.swift */,
+			);
+			path = CatsAndModules_ViktorSoviakUITests;
+			sourceTree = "<group>";
+		};
+		90C211132C17213800C05A83 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				90C2110B2C17213800C05A83 /* Appfile */,
+				90C2110C2C17213800C05A83 /* Fastfile */,
+				90C2110D2C17213800C05A83 /* Gymfile */,
+				90C2110E2C17213800C05A83 /* Pluginfile */,
+				90C2110F2C17213800C05A83 /* README.md */,
+				90C211102C17213800C05A83 /* report.xml */,
+				90C211112C17213800C05A83 /* Snapfile */,
+				90C211122C17213800C05A83 /* SnapshotHelper.swift */,
+			);
+			name = fastlane;
+			path = ../fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +283,24 @@
 			productReference = 903535492BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak.app */;
 			productType = "com.apple.product-type.application";
 		};
+		90C210FF2C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C211082C171F4600C05A83 /* Build configuration list for PBXNativeTarget "CatsAndModules_ViktorSoviakUITests" */;
+			buildPhases = (
+				90C210FC2C171F4600C05A83 /* Sources */,
+				90C210FD2C171F4600C05A83 /* Frameworks */,
+				90C210FE2C171F4600C05A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C211072C171F4600C05A83 /* PBXTargetDependency */,
+			);
+			name = CatsAndModules_ViktorSoviakUITests;
+			productName = CatsAndModules_ViktorSoviakUITests;
+			productReference = 90C211002C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -229,6 +313,10 @@
 				TargetAttributes = {
 					903535482BFB707D008DE9A7 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					90C210FF2C171F4600C05A83 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 903535482BFB707D008DE9A7;
 					};
 				};
 			};
@@ -249,6 +337,7 @@
 			projectRoot = "";
 			targets = (
 				903535482BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak */,
+				90C210FF2C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +350,20 @@
 				903535552BFB707E008DE9A7 /* Preview Assets.xcassets in Resources */,
 				903535512BFB707E008DE9A7 /* Assets.xcassets in Resources */,
 				9029DC122C033F0D00658806 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C210FE2C171F4600C05A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C211192C17213800C05A83 /* Gymfile in Resources */,
+				90C2111B2C17213800C05A83 /* Pluginfile in Resources */,
+				90C2111D2C17213800C05A83 /* README.md in Resources */,
+				90C2111F2C17213800C05A83 /* report.xml in Resources */,
+				90C211172C17213800C05A83 /* Fastfile in Resources */,
+				90C211212C17213800C05A83 /* Snapfile in Resources */,
+				90C211152C17213800C05A83 /* Appfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +409,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C210FC2C171F4600C05A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C211032C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests.swift in Sources */,
+				90C211052C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITestsLaunchTests.swift in Sources */,
+				90C211232C17213800C05A83 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90C211072C171F4600C05A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903535482BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak */;
+			targetProxy = 90C211062C171F4600C05A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		903535562BFB707E008DE9A7 /* Debug */ = {
@@ -453,13 +574,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.soviak.CatsAndModules-ViktorSoviak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Apple-ENV Soviak Profile";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -497,18 +618,65 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.soviak.CatsAndModules-ViktorSoviak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Apple-ENV Soviak Profile";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90C211092C171F4600C05A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953D823BK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.sovyak.CatsAndModules-ViktorSoviakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_ViktorSoviak;
+			};
+			name = Debug;
+		};
+		90C2110A2C171F4600C05A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953D823BK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.sovyak.CatsAndModules-ViktorSoviakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_ViktorSoviak;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -529,6 +697,15 @@
 			buildConfigurations = (
 				903535592BFB707E008DE9A7 /* Debug */,
 				9035355A2BFB707E008DE9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C211082C171F4600C05A83 /* Build configuration list for PBXNativeTarget "CatsAndModules_ViktorSoviakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C211092C171F4600C05A83 /* Debug */,
+				90C2110A2C171F4600C05A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

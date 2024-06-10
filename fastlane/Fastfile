@@ -18,7 +18,6 @@ default_platform(:ios)
 platform :ios do
   desc "Build, clean, archieve and export project to Firebase App Distribution"
   lane :build_and_export do
-
     increment_version_number(
       version_number: "1.1",    
       xcodeproj: "./CatsAndModules_ViktorSoviak/CatsAndModules_ViktorSoviak.xcodeproj"
@@ -45,5 +44,12 @@ platform :ios do
       release_notes: "Fastlane, lab04_ViktorSovyak",
       testers: "o.frankiv@ukma.edu.ua"
       )
+  end
+end
+
+platform :ios do
+  desc "Take snapshots of MainScreen and DetailsView"
+  lane :take_snapshots do
+    snapshot
   end
 end

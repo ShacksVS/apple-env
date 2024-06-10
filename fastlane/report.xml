@@ -5,22 +5,22 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000169">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000608">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: increment_version_number" time="0.13187">
+      <testcase classname="fastlane.lanes" name="1: increment_version_number" time="0.135555">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: gym" time="55.923514">
+      <testcase classname="fastlane.lanes" name="2: gym" time="52.008238">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: firebase_app_distribution" time="8.784927">
+      <testcase classname="fastlane.lanes" name="3: firebase_app_distribution" time="10.003686">
         
       </testcase>
     

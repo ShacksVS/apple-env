@@ -23,6 +23,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Build, clean, archieve and export project to Firebase App Distribution
 
+### ios take_snapshots
+
+```sh
+[bundle exec] fastlane ios take_snapshots
+```
+
+Take snapshots of MainScreen and DetailsView
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.
