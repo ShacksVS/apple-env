@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CatsAndModules_ViktorSoviak/CatsAndModules_ViktorSoviak.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyNetwork">
+   </FileRef>
+</Workspace>
