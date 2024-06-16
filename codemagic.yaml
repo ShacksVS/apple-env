@@ -10,16 +10,25 @@ workflows:
         - pattern: release_ViktorSoviak
           include: true
     scripts:
-        - name: Install fastlane-plugin-firebase_app_distribution
-          script: |
-            gem install bundler
-            sudo gem install fastlane-plugin-firebase_app_distribution --user-install
-        - name: Execute fastlane ios publishing task
-          script: |
-            cd ios
-            bundle install
-            bundle exec fastlane build_and_export
+      - name: Install rbenv and Ruby
+        script: |
+          brew install rbenv
+          rbenv init
+          echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+          source ~/.zshrc
+          rbenv install 3.1.0
+          rbenv global 3.1.0
+          ruby -v
+      - name: Install fastlane-plugin-firebase_app_distribution
+        script: |
+          gem install bundler
+          gem install fastlane-plugin-firebase_app_distribution
+      - name: Execute fastlane iOS publishing task
+        script: |
+          cd ios
+          bundle install
+          bundle exec fastlane build_and_export
     environment:
-        groups:
-            - firebase_credentials
-            - google_credentials
+      groups:
+        - firebase_credentials
+        - google_credentials
