@@ -9,7 +9,7 @@ workflows:
       branch_patterns:
         - pattern: release_ViktorSoviak
           include: true
-    enviroment:
+    environment:
         groups:
             - firebase_credentials
     scripts:
@@ -30,12 +30,12 @@ workflows:
         firebase:
             # use this line to authenticate via service account
             firebase_service_account: $FIREBASE_SERVICE_ACCOUNT
-        ios:
-            # Add your iOS app id retrieved from Firebase console
-            app_id: 1:861168593205:ios:f9af2a363dcf92efd0847c
+            ios:
+                # Add your iOS app id retrieved from Firebase console
+                app_id: 1:861168593205:ios:f9af2a363dcf92efd0847c
 
-            # Add one or more groups that you wish to distribute your iOS application to.
-            # You can create groups in the Firebase console
-#            groups:
-#                - iosTesters
-#                - ...
+                # Add one or more groups that you wish to distribute your iOS application to.
+                # You can create groups in the Firebase console
+#                groups:
+#                    - iosTesters
+#                    - ...
