@@ -28,7 +28,6 @@ struct CatList: View {
                 }
                 .padding(.horizontal)
                 
-//                Spacer()
 //
 //                Button("2. Crash") {
 //                    Crashlytics.crashlytics().log("Forced nil unwrapping button pressed")
