@@ -25,7 +25,6 @@ workflows:
           gem install fastlane-plugin-firebase_app_distribution
       - name: Execute fastlane iOS publishing task
         script: |
-          cd ios
           bundle install
           bundle exec fastlane build_and_export
     environment:
