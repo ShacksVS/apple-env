@@ -11,4 +11,4 @@ workflows:
           include: true
     scripts:
       - name: Test Echo
-      script: echo "Test"
+        script: echo "Test"
