@@ -12,9 +12,9 @@ workflows:
     environment:
         groups:
             - firebase_credentials
-        variables:
-            XCODE_SCHEME: "CatsAndModules_ViktorSoviak"  # Set your scheme name here
-            XCODE_WORKSPACE: "CatsAndModules_ViktorSoviak.xcworkspace"  # Set your workspace name
+        vars:
+            XCODE_SCHEME: "CatsAndModules_ViktorSoviak"
+            XCODE_WORKSPACE: "CatsAndModules_ViktorSoviak.xcworkspace"
     scripts:
         - name: Build ipa for distribution
           script: |
