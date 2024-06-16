@@ -15,6 +15,7 @@ workflows:
         vars:
             XCODE_SCHEME: "CatsAndModules_ViktorSoviak"
             XCODE_WORKSPACE: "CatsAndModules_ViktorSoviak.xcworkspace"
+            XCODE_VERSION
     scripts:
         - name: Build ipa for distribution
           script: |
@@ -26,9 +27,9 @@ workflows:
             -destination generic/platform=iOS
 
             xcodebuild -exportArchive \
-            -archivePath $HOME/Library/Developer/Xcode/Archives/$XCODE_SCHEME.xcarchive \
+            -archivePath $HOME/Library/Developer/Xcode/ARCHIVES/$XCODE_SCHEME.xcarchive \
             -exportPath $CM_BUILD_DIR/build/ios/ipa \
-            -exportOptionsPlist $CM_BUILD_DIR/exportOptionsTemplate.plist
+            -exportOptionsPlist $CM_BUILD_DIR/exportOptionsTemplate_temp.plist
     publishing:
         firebase:
             # use this line to authenticate via service account

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9029DC122C033F0D00658806 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9029DC112C033F0D00658806 /* GoogleService-Info.plist */; };
 		9029DC212C03481200658806 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9029DC202C03481200658806 /* FirebaseAnalytics */; };
 		9029DC232C03481200658806 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 9029DC222C03481200658806 /* FirebaseAnalyticsOnDeviceConversion */; };
 		9029DC252C03481200658806 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9029DC242C03481200658806 /* FirebaseAnalyticsSwift */; };
@@ -54,6 +53,7 @@
 		90C2111F2C17213800C05A83 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90C211102C17213800C05A83 /* report.xml */; };
 		90C211212C17213800C05A83 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 90C211112C17213800C05A83 /* Snapfile */; };
 		90C211232C17213800C05A83 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C211122C17213800C05A83 /* SnapshotHelper.swift */; };
+		90F1E3602C1F7B14008CF43B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90F1E35F2C1F7B14008CF43B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9029DC112C033F0D00658806 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		903535492BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsAndModules_ViktorSoviak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9035354C2BFB707D008DE9A7 /* CatsAndModules_ViktorSoviakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_ViktorSoviakApp.swift; sourceTree = "<group>"; };
 		903535502BFB707E008DE9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +88,7 @@
 		90C211102C17213800C05A83 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		90C211112C17213800C05A83 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
 		90C211122C17213800C05A83 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		90F1E35F2C1F7B14008CF43B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +141,7 @@
 		903535402BFB707C008DE9A7 = {
 			isa = PBXGroup;
 			children = (
+				90F1E35F2C1F7B14008CF43B /* GoogleService-Info.plist */,
 				90C211132C17213800C05A83 /* fastlane */,
 				9035354B2BFB707D008DE9A7 /* CatsAndModules_ViktorSoviak */,
 				90C211012C171F4600C05A83 /* CatsAndModules_ViktorSoviakUITests */,
@@ -163,7 +164,6 @@
 			children = (
 				90B89D8C2C08D06700E87678 /* CatsAndModules-ViktorSoviak-Info.plist */,
 				90B89D892C03B77B00E87678 /* Models */,
-				9029DC112C033F0D00658806 /* GoogleService-Info.plist */,
 				9035355B2BFB7235008DE9A7 /* Views */,
 				9035354C2BFB707D008DE9A7 /* CatsAndModules_ViktorSoviakApp.swift */,
 				903535502BFB707E008DE9A7 /* Assets.xcassets */,
@@ -348,8 +348,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				903535552BFB707E008DE9A7 /* Preview Assets.xcassets in Resources */,
+				90F1E3602C1F7B14008CF43B /* GoogleService-Info.plist in Resources */,
 				903535512BFB707E008DE9A7 /* Assets.xcassets in Resources */,
-				9029DC122C033F0D00658806 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +595,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CatsAndModules_ViktorSoviak/CatsAndModules_ViktorSoviak.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"CatsAndModules_ViktorSoviak/Preview Content\"";

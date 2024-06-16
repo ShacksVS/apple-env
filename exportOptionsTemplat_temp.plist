@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>development</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>ua.edu.ukma.apple-env.soviak.CatsAndModules-ViktorSoviak</key>
+		<string>04af43ad-f9c1-4416-af6a-87a22d2283bf</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Developer: Viktor Soviak (596GK6322F)</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>teamID</key>
+	<string>D85QWSUNYA</string>
+</dict>
+</plist>
