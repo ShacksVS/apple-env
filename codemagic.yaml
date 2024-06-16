@@ -9,7 +9,7 @@ workflows:
       branch_patterns:
         - pattern: release_ViktorSoviak
           include: true
-    enviroment:
+    environment:
         groups:
             - firebase_credentials
     publishing:
