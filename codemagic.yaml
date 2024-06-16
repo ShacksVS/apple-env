@@ -7,7 +7,7 @@ workflows:
       events:
         - push
       branch_patterns:
-        - pattern: origin/release_ViktorSoviak
+        - pattern: release_ViktorSoviak
           include: true
     scripts:
       - name: Test Echo
