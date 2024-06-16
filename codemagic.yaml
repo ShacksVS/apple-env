@@ -1,7 +1,7 @@
 workflows:
   sample-workflow:
     name: Codemagic Sample Workflow
-    max_build_duration: 120
+    max_build_duration: 360
     instance_type: mac_mini_m1
     triggering:
       events:
@@ -10,5 +10,16 @@ workflows:
         - pattern: release_ViktorSoviak
           include: true
     scripts:
-      - name: Test Echo
-        script: echo "Test"
+        - name: Install fastlane-plugin-firebase_app_distribution
+          script: |
+            gem install bundler
+            sudo gem install fastlane-plugin-firebase_app_distribution --user-install
+        - name: Execute fastlane ios publishing task
+          script: |
+            cd ios
+            bundle install
+            bundle exec fastlane build_and_export
+    environment:
+        groups:
+            - firebase_credentials
+            - google_credentials
