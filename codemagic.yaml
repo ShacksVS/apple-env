@@ -12,6 +12,20 @@ workflows:
     enviroment:
         groups:
             - firebase_credentials
+    scripts:
+        - name: Build ipa for distribution
+          script: |
+            xcodebuild archive \
+            -archivePath $HOME/Library/Developer/Xcode/Archives/$XCODE_SCHEME.xcarchive \
+            -workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            -scheme "$XCODE_SCHEME" \
+            -configuration Debug \
+            -destination generic/platform=iOS
+
+            xcodebuild -exportArchive \
+            -archivePath $HOME/Library/Developer/Xcode/Archives/$XCODE_SCHEME.xcarchive \
+            -exportPath $CM_BUILD_DIR/build/ios/ipa \
+            -exportOptionsPlist $CM_BUILD_DIR/exportOptionsTemplate.plist
     publishing:
         firebase:
             # use this line to authenticate via service account
