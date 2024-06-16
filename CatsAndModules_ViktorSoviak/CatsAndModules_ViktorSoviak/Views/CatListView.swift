@@ -28,7 +28,6 @@ struct CatList: View {
                 }
                 .padding(.horizontal)
                 
-                // Uncomment these if needed
 //                Spacer()
 //
 //                Button("2. Crash") {
