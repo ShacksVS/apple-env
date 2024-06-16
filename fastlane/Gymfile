@@ -10,7 +10,7 @@ output_directory("./output")
 
 scheme("CatsAndModules_ViktorSoviak")
 
-sdk("iphoneos17.4")
+sdk("iphoneos17.5")
 
 clean(true)
 

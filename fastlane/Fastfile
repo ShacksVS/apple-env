@@ -15,10 +15,6 @@
 
 default_platform(:ios)
 
-before_all do
-  xcode_select "/Applications/Xcode.app"
-end
-
 platform :ios do
   desc "Build, clean, archieve and export project to Firebase App Distribution"
   lane :build_and_export do
