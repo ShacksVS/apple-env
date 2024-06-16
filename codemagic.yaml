@@ -12,18 +12,21 @@ workflows:
     environment:
         groups:
             - firebase_credentials
+        variables:
+            XCODE_SCHEME: "CatsAndModules_ViktorSoviak"  # Set your scheme name here
+            XCODE_WORKSPACE: "CatsAndModules_ViktorSoviak.xcworkspace"  # Set your workspace name
     scripts:
         - name: Build ipa for distribution
           script: |
             xcodebuild archive \
-            -archivePath $HOME/Library/Developer/Xcode/Archives/CatsAndModules_ViktorSoviak.xcarchive \
-            -workspace "$CM_BUILD_DIR/CatsAndModules_ViktorSoviak.xcworkspace" \
-            -scheme "CatsAndModules_ViktorSoviak" \
+            -archivePath $HOME/Library/Developer/Xcode/Archives/$XCODE_SCHEME.xcarchive \
+            -workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            -scheme "$XCODE_SCHEME" \
             -configuration Debug \
             -destination generic/platform=iOS
 
             xcodebuild -exportArchive \
-            -archivePath $HOME/Library/Developer/Xcode/Archives/CatsAndModules_ViktorSoviak.xcarchive \
+            -archivePath $HOME/Library/Developer/Xcode/Archives/$XCODE_SCHEME.xcarchive \
             -exportPath $CM_BUILD_DIR/build/ios/ipa \
             -exportOptionsPlist $CM_BUILD_DIR/exportOptionsTemplate.plist
     publishing:
